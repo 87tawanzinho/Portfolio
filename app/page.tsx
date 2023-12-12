@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="p-16">
+      <div className="p-12">
         <p className="text-4xl text-gray-800">Olá 🖐</p>
         <p className="text-4xl text-gray-800 mt-2">Eu sou Thiago Tawan.</p>
 
@@ -28,42 +28,45 @@ export default function Home() {
           <p className="mt-10 text-2xl text-gray-800">Projetos</p>
           <div className="p-4">
             <p>Links:</p>
-            <Link href="https://workout-inky-delta.vercel.app/" target="blank">
-              <p className="hover:text-gray-400 transition-all ">
-                https://workout-inky-delta.vercel.app/ (Api Funcionando) - App
-                de Rotina Full Stack
-              </p>
-            </Link>
+            <div className="flex flex-col gap-2 ">
+              <Link
+                href="https://workout-inky-delta.vercel.app/"
+                target="blank"
+              >
+                <p className="  text-gray-600 hover:text-gray-400 transition-all ">
+                  Rotina - (Api Funcionando) - App de Rotina Full Stack
+                </p>
+              </Link>
 
-            <Link href="https://87tawan.github.io/Hamburgueria/" target="blank">
-              <p className="hover:text-gray-400 transition-all ">
-                https://87tawan.github.io/Hamburgueria/ - App de Hamburgueria
-                Front End
-              </p>
-            </Link>
+              <Link
+                href="https://87tawan.github.io/Hamburgueria/"
+                target="blank"
+              >
+                <p className=" text-gray-600 hover:text-gray-400 transition-all ">
+                  Chefia Burguer - App de Hamburgueria Front End
+                </p>
+              </Link>
 
-            <Link
-              href="https://tawanzinh9.github.io/WEBSITE-ZELDA-PC/"
-              target="blank"
-            >
-              <p className="hover:text-gray-400 transition-all ">
-                https://tawanzinh9.github.io/WEBSITE-ZELDA-PC/ - App Zelda -
-                Front End
-              </p>
-            </Link>
-            <Link href="https://tawanzinh9.github.io/lalaa/#/" target="blank">
-              <p className="hover:text-gray-400 transition-all ">
-                https://tawanzinh9.github.io/lalaa/#/ - Tartooga - (Api Parada)
-                Full Stack
-              </p>
-            </Link>
+              <Link
+                href="https://tawanzinh9.github.io/WEBSITE-ZELDA-PC/"
+                target="blank"
+              >
+                <p className=" text-gray-600 hover:text-gray-400 transition-all ">
+                  Website Zelda - App Zelda - Front End
+                </p>
+              </Link>
+              <Link href="https://tawanzinh9.github.io/lalaa/#/" target="blank">
+                <p className=" text-gray-600 hover:text-gray-400 transition-all ">
+                  Tartooga - (Api Parada) Full Stack
+                </p>
+              </Link>
 
-            <Link href="https://camping-ruddy.vercel.app/" target="blank">
-              <p className="hover:text-gray-400 transition-all ">
-                https://camping-ruddy.vercel.app/ - Camping - (Api Funcionando)
-                Full Stack
-              </p>
-            </Link>
+              <Link href="https://camping-ruddy.vercel.app/" target="blank">
+                <p className=" text-gray-600 hover:text-gray-400 transition-all ">
+                  Camping Gnomo - Camping - (Api Funcionando) Full Stack
+                </p>
+              </Link>
+            </div>
           </div>
 
           <p className="text-2xl text-gray-800 mt-10">Contato</p>
