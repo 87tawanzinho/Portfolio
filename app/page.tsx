@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import first from "@/public/first.png";
+import tartooga from "@/public/tartooga.png";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -18,42 +20,65 @@ export default function Home() {
             fluidas e harmônicas.
           </p>
           <p className="italic  mt-4 text-gray-600 text-md">
-            "Codificando o amanhã, um byte de cada vez."
+            Javascript Nextjs NodeJs VueJs C# MAUI
           </p>
         </div>
 
         <div>
           <p className="mt-10 text-2xl text-gray-800">Projetos</p>
-          <div className="flex flex-wrap gap-4">
-            <div className="">
-              <Image src={first} alt="first" className="rounded" />
-              <p className="text-gray-500 text-center max-w-sm mt-4">
-                WebApp de rotina, para ajudar a organizar suas metas de vida e
-                suas tarefas.
+          <div className="p-4">
+            <p>Links:</p>
+            <Link href="https://workout-inky-delta.vercel.app/" target="blank">
+              <p className="hover:text-gray-400 transition-all ">
+                https://workout-inky-delta.vercel.app/ (Api Funcionando) - App
+                de Rotina Full Stack
               </p>
-            </div>
-            <div className="">
-              <Image src={first} alt="first" className="rounded" />
-              <p className="text-gray-500 text-center max-w-sm mt-4">
-                WebApp de rotina, para ajudar a organizar suas metas de vida e
-                suas tarefas.
-              </p>
-            </div>
-            <div className=" ">
-              <Image src={first} alt="first" className="rounded" />
-              <p className="text-gray-500 text-center max-w-sm mt-4">
-                WebApp de rotina, para ajudar a organizar suas metas de vida e
-                suas tarefas.
-              </p>
-            </div>
+            </Link>
 
-            <div className="">
-              <Image src={first} alt="first" className="rounded" />
-              <p className="text-gray-500 text-center max-w-sm mt-4">
-                WebApp de rotina, para ajudar a organizar suas metas de vida e
-                suas tarefas.
+            <Link href="https://87tawan.github.io/Hamburgueria/" target="blank">
+              <p className="hover:text-gray-400 transition-all ">
+                https://87tawan.github.io/Hamburgueria/ - App de Hamburgueria
+                Front End
               </p>
-            </div>
+            </Link>
+
+            <Link
+              href="https://tawanzinh9.github.io/WEBSITE-ZELDA-PC/"
+              target="blank"
+            >
+              <p className="hover:text-gray-400 transition-all ">
+                https://tawanzinh9.github.io/WEBSITE-ZELDA-PC/ - App Zelda -
+                Front End
+              </p>
+            </Link>
+            <Link href="https://tawanzinh9.github.io/lalaa/#/" target="blank">
+              <p className="hover:text-gray-400 transition-all ">
+                https://tawanzinh9.github.io/lalaa/#/ - Tartooga - (Api Parada)
+                Full Stack
+              </p>
+            </Link>
+
+            <Link href="https://camping-ruddy.vercel.app/" target="blank">
+              <p className="hover:text-gray-400 transition-all ">
+                https://camping-ruddy.vercel.app/ - Camping - (Api Funcionando)
+                Full Stack
+              </p>
+            </Link>
+          </div>
+
+          <p className="text-2xl text-gray-800 mt-10">Contato</p>
+          <div className="p-4">
+            <p>Email</p>
+            <p className="p-4 text-gray-600">thiago_tawan@outlook.com</p>
+            <p>Linkedin</p>
+            <Link
+              href="https://www.linkedin.com/in/thiago-tawan/"
+              target="blank"
+            >
+              <p className="p-4 text-gray-600 hover:text-gray-400 transition-all">
+                https://www.linkedin.com/in/thiago-tawan/
+              </p>
+            </Link>
           </div>
         </div>
       </div>
