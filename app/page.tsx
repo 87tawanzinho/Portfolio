@@ -37,7 +37,11 @@ export default function Home() {
                   Rotina - (Api Funcionando) - App de Rotina Full Stack
                 </p>
               </Link>
-
+              <Link href="https://valorant-design.vercel.app/" target="blank">
+                <p className="  text-gray-600 hover:text-gray-400 transition-all ">
+                  Client Valorant - App Front End
+                </p>
+              </Link>
               <Link
                 href="https://87tawan.github.io/Hamburgueria/"
                 target="blank"
@@ -80,6 +84,12 @@ export default function Home() {
             >
               <p className="p-4 text-gray-600 hover:text-gray-400 transition-all">
                 https://www.linkedin.com/in/thiago-tawan/
+              </p>
+            </Link>
+            <p>GitHub</p>
+            <Link href="https://github.com/87tawanzinho" target="blank">
+              <p className="p-4 text-gray-600 hover:text-gray-400 transition-all">
+                https://github.com/87tawanzinho
               </p>
             </Link>
           </div>
