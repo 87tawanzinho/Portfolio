@@ -37,6 +37,14 @@ export default function Home() {
                   Rotina - (Api Funcionando) - App de Rotina Full Stack
                 </p>
               </Link>
+              <Link
+                href="https://workout-inky-delta.vercel.app/"
+                target="blank"
+              >
+                <p className="  text-gray-600 hover:text-gray-400 transition-all ">
+                  Blog Pessoal - (Api Funcionando) - App de Blog Full Stack
+                </p>
+              </Link>
               <Link href="https://valorant-design.vercel.app/" target="blank">
                 <p className="  text-gray-600 hover:text-gray-400 transition-all ">
                   Client Valorant - App Front End
