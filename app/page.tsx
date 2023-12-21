@@ -38,7 +38,7 @@ export default function Home() {
                 </p>
               </Link>
               <Link
-                href="https://workout-inky-delta.vercel.app/"
+                href="https://blog-front-seven-lake.vercel.app/"
                 target="blank"
               >
                 <p className="  text-gray-600 hover:text-gray-400 transition-all ">
